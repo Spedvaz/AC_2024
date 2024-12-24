@@ -16,7 +16,7 @@ a
 <br><br>
 DIA 5 
 <br>
-a
+Hemos resuelto la primera parte con grafos. Para la estructura del grafo, usamos unordered_map de un int con un vector de ints. Con cada linea de la primera parte del input, el primer numero es la clave y el segundo se mete en el vector. Despues, a la hora de comparar, se verifica que la clave exista, y despues de obtiene el vector asociado a ese valor y se verifica que todos los numeros que vienen despues se encuentren en este vector.
 <br><br>
 DIA 6
 <br>
