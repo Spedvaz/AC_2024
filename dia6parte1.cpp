@@ -23,7 +23,7 @@ void movimientoX(char (&mapa)[N][N], int &posX, int &posY, int &contador, bool p
     if(positivo_negativo == true){
         while((posX >= 0 && posX <= N - 1) && mapa[posX+1][posY] != '#'){
             posX++;
-			cout << posX << " " << posY << " " << contador<< endl;
+            cout << posX << " " << posY << " " << contador<< endl;
             if(mapa[posX][posY] != 'X' && posX >= 0 && posX <= N - 1){
                 contador++;
                 mapa[posX][posY] = 'X';
@@ -32,7 +32,7 @@ void movimientoX(char (&mapa)[N][N], int &posX, int &posY, int &contador, bool p
     }else{
         while((posX >= 0 && posX <= N - 1) && mapa[posX-1][posY] != '#'){
             posX--;
-			cout << posX << " " << posY << " " << contador<< endl;
+            cout << posX << " " << posY << " " << contador<< endl;
             if(mapa[posX][posY] != 'X' && posX >= 0 && posX <= N - 1){
                 contador++;
                 mapa[posX][posY] = 'X';
@@ -45,7 +45,7 @@ void movimientoY(char (&mapa)[N][N], int &posX, int &posY, int &contador, bool p
     if(positivo_negativo == true){
         while((posY >= 0 && posY <= N - 1) && mapa[posX][posY+1] != '#'){
             posY++;
-			cout << posX << " " << posY << " " << contador<< endl;
+            cout << posX << " " << posY << " " << contador<< endl;
             if(mapa[posX][posY] != 'X' && posY >= 0 && posY <= N - 1){
                 contador++;
                 mapa[posX][posY] = 'X';
@@ -54,7 +54,7 @@ void movimientoY(char (&mapa)[N][N], int &posX, int &posY, int &contador, bool p
     }else{
         while((posY >= 0 && posY <= N - 1) && mapa[posX][posY-1] != '#'){
             posY--;
-			cout << posX << " " << posY << " " << contador<< endl;
+            cout << posX << " " << posY << " " << contador<< endl;
             if(mapa[posX][posY] != 'X' && posY >= 0 && posY <= N - 1){
                 contador++;
                 mapa[posX][posY] = 'X';
@@ -65,14 +65,14 @@ void movimientoY(char (&mapa)[N][N], int &posX, int &posY, int &contador, bool p
 
 
 void mover_delante(char (&mapa)[N][N], int &posX, int &posY, int &contador, int &prueba){
-    //  subir posY++, bajar posY--, derecha posX++, izquierda posX-
+    //  subir posX--, bajar posX++, derecha posY++, izquierda posY--
     bool positivo_negativo = false; //depende de tu input
     movimientoX(mapa, posX, posY, contador, positivo_negativo);
     if(mapa[posX][posY+1] == '#' || posY+1 >= N || posX < 0){
         return;
     }
     positivo_negativo = true;
-	movimientoY(mapa, posX, posY, contador, positivo_negativo);
+    movimientoY(mapa, posX, posY, contador, positivo_negativo);
     if(mapa[posX+1][posY] == '#' || posX+1 >= N || posY < 0){
         return;
     }
@@ -86,12 +86,10 @@ void mover_delante(char (&mapa)[N][N], int &posX, int &posY, int &contador, int 
     if(mapa[posX-1][posY] == '#' || posX-1 < 0 || posY >= N){
         return;
     }
-	if(posX + 1 >= N || posY + 1 >= N || posX - 1 < 0 || posY - 1 < 0){
-		return;
-	}else{
-   		if (posX + 1 < N-1 && posY + 1 < N-1 && mapa[posX][posY+1] != '#' && mapa[posX-1][posY] != '#') {
-        	mover_delante(mapa, posX, posY, contador, prueba);
-		}
+    if(posX + 1 >= N || posY + 1 >= N || posX - 1 < 0 || posY - 1 < 0){
+        return;
+    }else{
+        mover_delante(mapa, posX, posY, contador, prueba);
     }
 }
 
