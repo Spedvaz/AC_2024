@@ -8,7 +8,9 @@ En la parte 1, lo sacamos mediante un árbol, en el que usamos nuestro BSTree cr
   <br><br>
 DIA 3
 <br>
-a
+Hemos usado la librería regex
+<br>
+La segunda parte vimos que el primer código era muy lioso para poder hacer la segunda parte. Entonces registramos los 3 patrones, mul, do y don't, finlamente uno que englobase todo. Si el match coincide y el bool está en true con el patrón de multiplicar los multiplica y los añade al total. En caso de coincidir con el patrón de do activa el bool a true y si es el de don't descativa el bool a false.
 <br><br>
 DIA 4
 <br>
