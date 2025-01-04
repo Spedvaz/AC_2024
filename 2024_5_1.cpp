@@ -65,7 +65,7 @@ bool verificar(unordered_map<int, vector<int>> &lectura, vector<int> &orden) {
 }
 
 int main() {
-	unordered_map<int, vector<int>> lectura;
+    unordered_map<int, vector<int>> lectura;
     vector<vector<int>> orden;
     int resultado = 0;
 
