@@ -5,3 +5,4 @@ Nuestra solución es sencilla, ir recorriendo el grafo e ir comprobando que para
 <br><br>
 Como conclusión, estamos un poco defraudados ya que solo hemos cambiado la estructura para hacerlo válido para la entrega pero como tal no ha mejorado nada. Además, estuvimos un montón de tiempo la primera vez que lo hicimos y luego volver a ponernos para buscar otra solución con una estructura que nos sirviese para la entrega nos costo un poco. 
 <br><br>
+Para compilar, descargar el input en un archivo (input.in), compilar mediante "g++ -o dia5 dia5parte1_grafos.cpp", y seguidamente "./dia5 < input.in".
