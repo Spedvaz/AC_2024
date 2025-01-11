@@ -7,4 +7,4 @@ Para la segunda parte vimos que el primer código era muy lioso. Entonces regist
 <br><br>
 
 
-PROBLEMAS BIEN HECHOS -> 2, 5, 6, 
+PROBLEMAS BIEN HECHOS -> 2, 5, 6, 23
