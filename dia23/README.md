@@ -1,5 +1,5 @@
 DIA 23
-<br>
+<br><br>
 Después de haber estudiado para el examen de PRA, se me ha ocurrido echarle un vistazo a los últimos y hemos visto que este era muy similar al ejercicio del examen de ejemplo de los enlaces con aviones, por
 lo tanto he decidido hacerlo con grafos. 
 Primero, como es bidireccional, inserto el enlace en los dos grafos. Es decir, para a-b, inserto a en el grafo de b y viceversa. Más tarde he tenido problemas porque no estaba verificando cuales habia visitado 
