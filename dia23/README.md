@@ -9,7 +9,7 @@ Luego, en la función de comprobar_vecinos, tengo un triple bucle que, para cada
 los ordena para evitar contar repetidas veces y marca ese ciclo como visitado en el grafo ciclosContados. Se verifica que uno de ellos tenga la "t" que requiere el problema (también he tenido problema con esto
 ya que pensaba que también podía ser la segunda "t" y estaba verificando de esta manera: nodo.find('t') != string::npos), y en caso de que la tenga, se suma 1 al total. 
 <br><br>
-Este problema me ha gustado porque he aprendido lo usado en clase, y no pensaba que iba a poder sacar uno tan alto. Ha sido reconfortante saber que algo estoy aprendiendo. 
+Este problema nos ha gustado porque he aprendido lo usado en clase, y no pensaba que ibamos a poder sacar uno tan alto. Ha sido reconfortante saber que algo estamos aprendiendo. 
 <br><br>
 Para compilar, descargar el input en un archivo (input.in), compilar mediante "g++ -o dia23 dia23parte1_grafos.cpp", y seguidamente "./dia5 < input.in".
 <br><br>
