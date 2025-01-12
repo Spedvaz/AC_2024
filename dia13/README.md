@@ -1,6 +1,6 @@
 # **DIA 13**
 <br>
-Vimos que podiamos resolver esta facilmente con recursividad (aunque sin mejorar la eficiencia del codigo). Lo resolvimos rápido, pero tuvimos muchisimos problemas con el input, ya que no sabiamos como extraerlo. Las lineas vacías tambien fueron un problema porque intentamos usar la funcion if(!input.empty()){ejecutar codigo} y no iba bien.
+Vimos que podíamos resolver esta facilmente con recursividad (aunque sin mejorar la eficiencia del codigo). Lo resolvimos rápido, pero tuvimos muchisimos problemas con el input, ya que no sabiamos como extraerlo. Las lineas vacías tambien fueron un problema porque intentamos usar la funcion if(!input.empty()){ejecutar codigo} y no iba bien.
 <br><b>
 El código se basa en mantener a lo más pequeño posible e ir probando en la ecuacion con todos los valores de b (de menor a mayor) para ver si se consigue los resultados esperados. En caso de que sea así, se devuelve el valor b y el a lo tenemos pasado por referencia.  Sumamos al total el número de créditos que nos ha costado (3 por cada ticket de A y 1 por cada ticket de B), a un valor que se le ha pasado por referencia a la funcion de get_input().
 <br>
