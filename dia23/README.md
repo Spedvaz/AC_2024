@@ -1,4 +1,4 @@
-DIA 23
+# **DIA 23**
 <br><br>
 Después de haber estudiado para el examen de PRA, se me ha ocurrido echarle un vistazo a los últimos y hemos visto que este era muy similar al ejercicio del examen de ejemplo de los enlaces con aviones, por
 lo tanto he decidido hacerlo con grafos. 
@@ -11,5 +11,5 @@ ya que pensaba que también podía ser la segunda "t" y estaba verificando de es
 <br><br>
 Este problema nos ha gustado porque he aprendido lo usado en clase, y no pensaba que ibamos a poder sacar uno tan alto. Ha sido reconfortante saber que algo estamos aprendiendo. 
 <br><br>
-Para compilar, descargar el input en un archivo (input.in), compilar mediante "g++ -o dia23 dia23parte1_grafos.cpp", y seguidamente "./dia5 < input.in".
+Para compilar, descargar el input en un archivo (input.in), compilar mediante "g++ -o dia23 dia23parte1_grafos.cpp", y seguidamente "./dia25 < input.in".
 <br><br>
